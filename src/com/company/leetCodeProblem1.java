@@ -18,6 +18,14 @@ public class leetCodeProblem1 {
                 }
             }
         }
-        System.out.println(stringMap);
+        int result[] = new int[stringMap.keySet().size()];
+        int i = 0;
+        for (String key: stringMap.keySet()) {
+            result[i] = stringMap.get(key);
+            i++;
+        }
+        for (int j=0;  j< result.length ;j++) {
+            System.out.print(result[j]+" ");
+        }
     }
 }
