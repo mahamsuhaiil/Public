@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -55,7 +56,7 @@ public class Main {
         else {
             System.out.println("Can not compare strings with this.");
         }*/
-        HashMap<String, String> hashMap = new HashMap<>();
+        /*HashMap<String, String> hashMap = new HashMap<>();
         Hashtable<String, String> hashTable = new Hashtable<>();
 
         hashMap.put("key1","1val");
@@ -73,7 +74,7 @@ public class Main {
         for (Map.Entry<String, String> entry: hashTable.entrySet()) {
             System.out.println(entry);
         }
-        System.out.println(System.currentTimeMillis() - time + " milliseconds");
+        System.out.println(System.currentTimeMillis() - time + " milliseconds");*/
 
     }
 }
