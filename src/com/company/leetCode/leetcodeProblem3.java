@@ -1,4 +1,4 @@
-package com.company;
+package com.company.leetCode;
 
 public class leetcodeProblem3 {
     public static int maxProfit(int[] prices) {

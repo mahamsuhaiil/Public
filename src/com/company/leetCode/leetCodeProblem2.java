@@ -1,4 +1,4 @@
-package com.company;
+package com.company.leetCode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 // didn't handle exceptional cases yet
 
-public class leetCideProblem2 {
+public class leetCodeProblem2 {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<String,Integer>();
         map.put("I", 1);
