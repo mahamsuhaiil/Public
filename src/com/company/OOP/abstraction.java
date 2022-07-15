@@ -1,4 +1,4 @@
-package com.company;
+package com.company.OOP;
 abstract class Animal{
     Animal(){
         System.out.println("Animal class constructed");
@@ -11,7 +11,7 @@ abstract class Animal{
 interface species{
     void places();
 }
-public class oop extends Animal implements species {
+public class abstraction extends Animal implements species {
     @Override
     void eat() {
         System.out.println("Animals eats different food");
@@ -23,7 +23,7 @@ public class oop extends Animal implements species {
     }
 
     public static void main(String[] args) {
-        oop o = new oop();
+        abstraction o = new abstraction();
         o.eat();
         o.places();
         o.drink();
