@@ -1,4 +1,4 @@
-package com.company;
+package com.company.OOP;
 
 class A{
     //From within a constructor, you can also use the this keyword to call another constructor in the same class. Doing so is called an explicit constructor invocation.

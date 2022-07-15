@@ -1,4 +1,4 @@
-package com.company;
+package com.company.OOP;
 
 class base{
     private static void display(){
